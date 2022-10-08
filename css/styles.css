@@ -1,3 +1,9 @@
+:root {
+  --lightblue: #2196f3;
+  --white: #ffffff;
+  --grey: #2f303a;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -11,41 +17,41 @@ body {
   font-size: 31px;
 }
 .logo1 {
-  color: #2196f3;
+  color: var(--lightblue);
 }
 .logo2 {
-  color: white;
+  color: var(--white);
 }
 .footerb {
-  background-color: #2f303a;
+  background-color: var(--grey);
 }
 .addressb {
-  color: white;
+  color: var(--white);
   margin-left: 215px;
 }
-.mail {
+.mailfooter {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
-.mail1 {
+.mailheader {
   color: #757575;
   text-decoration: none;
 }
-.mail1:hover,
-.mail1:focus {
-  color: #2196f3;
+.mailheader:hover,
+.mailheader:focus {
+  color: var(--lightblue);
 }
-.tel {
+.telfooter {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
-.tel1 {
+.telheader {
   color: #757575;
   text-decoration: none;
 }
-.tel1:hover,
-.tel1:focus {
-  color: #2196f3;
+.telheader:hover,
+.telheader:focus {
+  color: var(--lightblue);
 }
 .agencja {
   text-decoration: none;
@@ -53,7 +59,7 @@ body {
 }
 .agencja:hover,
 .agencja:focus {
-  color: #2196f3;
+  color: var(--lightblue);
 }
 .portfolio {
   text-decoration: none;
@@ -61,7 +67,7 @@ body {
 }
 .portfolio:hover,
 .portfolio:focus {
-  color: #2196f3;
+  color: var(--lightblue);
 }
 .kontakt {
   text-decoration: none;
@@ -69,38 +75,38 @@ body {
 }
 .kontakt:hover,
 .kontakt:focus {
-  color: #2196f3;
+  color: var(--lightblue);
 }
 ul {
   list-style-type: none;
 }
 .logo3 {
-  color: #2196f3;
+  color: var(--lightblue);
 }
 .logo4 {
   color: #212121;
 }
-.button1 {
-  background-color: #2196f3;
+.button {
+  background-color: var(--lightblue);
   border: none;
-  color: white;
+  color: var(--white);
   font-size: 16px;
 }
 .main {
   background-color: #2f303a;
-  color: white;
+  color: var(--white);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.3;
   text-align: center;
 }
-.lista {
+.list {
   display: flex;
   color: #757575;
   font-weight: 400;
   line-height: 1.7;
 }
-.lorem {
+.textheader {
   color: #212121;
   font-weight: bold;
 }
@@ -110,35 +116,35 @@ ul {
   font-size: 36px;
   text-align: center;
 }
-.imie {
+.name {
   color: #212121;
   font-size: 16px;
   font-weight: 500;
 }
-.opis {
+.job {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
 }
-.button2 {
+.filter-button {
   color: #212121;
   font-size: 16px;
   font-weight: 500;
   border: none;
   background-color: #f5f4fa;
 }
-.button2:hover,
-.button2:focus {
-  color: white;
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
   font-size: 16px;
   font-weight: 500;
   border: none;
-  background-color: #2196f3;
+  background-color: var(--lightblue);
 }
-.foto1,
-.foto2 {
+.foto-activities,
+.foto-team {
   display: flex;
 }
-.b2 {
+.buttonpositioning {
   display: flex;
 }
