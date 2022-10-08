@@ -1,0 +1,132 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-size: 14px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin-left: 215px;
+  font-size: 26px;
+}
+.logo1 {
+  color: #2196f3;
+}
+.logo2 {
+  color: white;
+}
+.footerb {
+  background-color: #2f303a;
+}
+.addressb {
+  color: white;
+  margin-left: 215px;
+}
+.mail {
+  text-decoration: none;
+  color: white;
+}
+.mail1 {
+  color: #757575;
+  text-decoration: none;
+}
+.mail1:hover,
+.mail1:focus {
+  color: #2196f3;
+}
+.tel {
+  text-decoration: none;
+  color: white;
+}
+.tel1 {
+  color: #757575;
+  text-decoration: none;
+}
+.tel1:hover,
+.tel1:focus {
+  color: #2196f3;
+}
+.agencja {
+  text-decoration: none;
+  color: #212121;
+}
+.agencja:hover,
+.agencja:focus {
+  color: #2196f3;
+}
+.portfolio {
+  text-decoration: none;
+  color: #212121;
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: #2196f3;
+}
+.kontakt {
+  text-decoration: none;
+  color: #212121;
+}
+.kontakt:hover,
+.kontakt:focus {
+  color: #2196f3;
+}
+ul {
+  list-style-type: none;
+}
+.logo3 {
+  color: #2196f3;
+}
+.logo4 {
+  color: #212121;
+}
+.button1 {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.main {
+  background-color: #2f303a;
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+}
+.lista {
+  color: #757575;
+  font-weight: 400;
+}
+.lorem {
+  color: #212121;
+  font-weight: bold;
+}
+.section {
+  color: #212121;
+  font-weight: bold;
+  font-size: 36px;
+}
+.imie {
+  color: #212121;
+  font-size: 16px;
+  font-weight: medium;
+}
+.opis {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.button2 {
+  color: #212121;
+  font-size: 16px;
+  font-weight: medium;
+  border: none;
+  background-color: #f5f4fa;
+}
+.button2:hover,
+.button2:focus {
+  color: white;
+  font-size: 16px;
+  font-weight: medium;
+  border: none;
+  background-color: #2196f3;
+}
